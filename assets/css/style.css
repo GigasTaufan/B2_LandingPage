@@ -604,7 +604,7 @@ section {
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
-  border-radius: 5px;
+  border-radius: 50px;
   transition: 0.3s;
   line-height: 1;
   color: #ef6603;
@@ -617,6 +617,27 @@ section {
 .about .content .btn-learn-more:hover {
   background: #ef6603;
   color: #fff;
+  text-decoration: none;
+}
+
+.charity .content .btn-donate {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #fff;
+  background: #ef6603;
+}
+
+.charity .content .btn-donate:hover {
+  background: #fff;
+  color: #ef6603;
   text-decoration: none;
 }
 
